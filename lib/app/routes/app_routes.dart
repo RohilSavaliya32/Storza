@@ -1,0 +1,32 @@
+abstract class Routes {
+  Routes._();
+  static const SPLASH = '/splash';
+  static const MAIN_NAVIGATION = '/main-navigation';
+  static const HOME = '/home';
+  static const LOGIN = '/login';
+  static const REGISTER = '/register';
+  static const OTP = '/otp';
+  static const FORGOT_PASSWORD = '/forgot-password';
+  static const RESET_PASSWORD = '/reset-password';
+  static const ALBUMS = '/albums';
+  static const ALBUM_DETAILS = '/album-details';
+  static const PHOTOS = '/photos';
+  static const VIDEOS = '/videos';
+  static const PHOTO_PREVIEW = '/photo-preview';
+  static const VIDEO_PLAYER = '/video-player';
+  static const PREMIUM = '/premium';
+  static const PROFILE = '/profile';
+  static const SETTINGS = '/settings';
+  static const FAVORITES = '/favorites';
+  static const RECENTLY_DELETED = '/recently-deleted';
+  static const RECENT = '/recent';
+  static const SHARED = '/shared';
+  static const CREATE_SHARE = '/create-share';
+  static const STORAGE = '/storage';
+  static const ACCOUNT_INFO = '/account-info';
+  static const CHANGE_PASSWORD = '/change-password';
+  static const HELP_SUPPORT = '/help-support';
+  static const ABOUT = '/about';
+  static const PRIVACY_POLICY = '/privacy-policy';
+  static const TERMS_CONDITIONS = '/terms-conditions';
+}
